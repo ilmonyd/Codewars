@@ -1,0 +1,1 @@
+function songDecoder(song) { return song.split('WUB').filter(n => n!='').join(' ') }
