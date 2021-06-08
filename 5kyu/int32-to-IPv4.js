@@ -1,0 +1,1 @@
+const int32ToIp = input => { return ("0".repeat(32) + input.toString(2)).substr(input.toString(2).length).match(/.{1,8}/g).map(n => parseInt(n,2)).join('.'); }
